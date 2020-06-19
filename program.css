@@ -1,0 +1,10 @@
+.item {
+    border: 0.5px solid gray;
+    padding: 10px;
+    box-shadow: -13px 4px 9px #888888;
+  }
+.item1 {
+    border: 0.5px solid gray;
+    padding: 10px;
+    box-shadow: 11px 7px 9px #888888;
+}

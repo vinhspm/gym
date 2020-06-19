@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body style="background-color: rgb(228, 224, 220);">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a  class="navbar-brand" href="home.html">
+          <img src="images/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+          FITNESS
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="program.html"> Workouts & Programs  </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="diet.html">Healthy living</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gym.html">Gym network </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="7.html">7-Day Chanllenge </a>
+            </li>
+          </ul>
+          <span class="navbar-brand"> 
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png"width="25" height="25" class="d-inline-block align-top" alt=""></a>
+          </span>
+          <span class="navbar-brand"> 
+            <a href="https://www.instagram.com" target="_blank"><img src="images/insta-logo.png"width="25" height="25" class="d-inline-block align-top" alt=""></a>
+          </span>
+          <span class="navbar-brand"> 
+            <a href="https://www.youtube.com" target="_blank"><img src="images/youtube-logo.png"width="25" height="25" class="d-inline-block align-top" alt=""></a>
+          </span>
+        </div>
+        </nav>
+      </nav>
+
+      <div style="text-align: center; font-size: 40px; padding-top: 0.5cm;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Fitness for your mind, body and spirit</div>
+
+      <div class="container "  ></div>
+      <div class="row " style="padding: 0.5cm 3cm 3cm 3cm" >
+        <div class="col-3" style="background-color: rgb(223, 221, 198);">
+            <ul>
+                <br><br>
+                <li><button value="0" type="button" class="btn btn-outline-primary btn-lg" onclick="day(value)" > &nbsp; &nbsp; Day 1 &nbsp; &nbsp;  </button> </li> <br>
+                <li><button value="1" type="button" class="btn btn-outline-secondary btn-lg" onclick="day(value)">&nbsp; &nbsp; Day 2 &nbsp; &nbsp;</button>  </li><br>
+                <li><button value="2" type="button" class="btn btn-outline-success btn-lg" onclick="day(value)" >&nbsp; &nbsp; Day 3 &nbsp; &nbsp;</button></li><br>
+                <li><button value="3" type="button" class="btn btn-outline-danger btn-lg"onclick="day(value)" >&nbsp; &nbsp; Day 4 &nbsp; &nbsp;</button></li><br>
+                <li><button value="4" type="button" class="btn btn-outline-warning btn-lg" onclick="day(value)" >&nbsp; &nbsp; Day 5 &nbsp; &nbsp;</button></li><br>
+                <li><button value="5" type="button" class="btn btn-outline-info btn-lg" onclick="day(value)" >&nbsp; &nbsp; Day 6 &nbsp; &nbsp; </button></li><br>
+                <li><button value="6" type="button" class="btn btn-outline-dark btn-lg" onclick="day(value)">&nbsp; &nbsp; Day 7 &nbsp; &nbsp;</button> </li><br>
+            </ul>
+        </div>
+        <div class="col-9" style="background-color: rgb(223, 221, 198);" id="video"><iframe width="101.2%" height="99.7%" src="https://www.youtube.com/embed/wWGulLAa0O0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      </div> </div>
+      <div style="padding: 0cm 3cm 3cm 3cm;" id="diet"></div>
+
+      <br> <br> <hr> <br> <br>
+      <div style="background-color: #222533; height: 13cm;"> 
+        <br> <br> <br> <br> <br>
+           <center>
+             <h2 style="color: white; text-align: center; font-size: 1cm; line-height: 1.4cm; font-family: Arial, Helvetica, sans-serif;">
+                Created by personal trainers, <br> Minh and Huy — a team have passionate about <br>
+                helping you achieve your health and fitness goals.
+              </h2>
+              <br> <br> <br>
+              <a href="#" style="font-size: 0.7cm; text-decoration: underline;"> Learn more about us</a>
+           </center>
+           <br> <br> <br>
+          
+      </div>
+
+      <script src="7.js"></script>
+</body>
+</html>
